@@ -56,10 +56,10 @@ You can read about that [Here For Windows](https://www.360logica.com/blog/how-to
   1. Create a new Device in emulator [Read this link](https://developer.android.com/studio/run/managing-avds)
 
 ## 4. Add react native cli
-  The official doc suggests using [Create react native app](https://facebook.github.io/react-native/docs/getting-started.html). We will use the official React native cli so that there is no third party dependency.
-  ```bash
-  npm install -g react-native-cli
-  ```
+The official doc suggests using [Create react native app](https://facebook.github.io/react-native/docs/getting-started.html). We will use the official React native cli so that there is no third party dependency.
+```bash
+npm install -g react-native-cli
+```
 
 ## 5. Create your first App Scafold
 We will create an app called `AppName`
@@ -83,6 +83,13 @@ Ensure you have your device  connected, with developer mode on and usb debugging
 Once you have your emulator running. cd into your folder
 ```
 react-native run-android
+```
+
+## 8. Install Xcode (Optional for IOS only)
+Download and install from [here](https://developer.apple.com/xcode/).
+To  run app on ios simulator run:
+```bash
+react-native run-ios
 ```
 
 ## Reader Doc
