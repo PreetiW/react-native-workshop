@@ -1,3 +1,3 @@
 /** @format */
 
-import './src/1';
+import './src/2';
