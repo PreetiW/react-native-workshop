@@ -83,3 +83,6 @@ Once you have your emulator running. cd into your folder
 ```
 react-native run-android
 ```
+
+## Reader Doc
+We have a nice article which will cover the above steps and a few more points [here](https://eng.wobe.io/react-native-the-beginning-92c6ea857b63).
