@@ -8,6 +8,7 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
+import Button from './components/Button';
 
 // Update the message and reload the app to see the changes
 const instructions = Platform.select({
@@ -17,8 +18,11 @@ const instructions = Platform.select({
     'Shake or press menu button for dev menu',
 });
 
-type Props = {};
 export default class App extends Component<Props> {
+
+  state = {
+    count: 0
+  };
 
   //must define render method
   render() {
@@ -29,8 +33,14 @@ export default class App extends Component<Props> {
         <Text style={styles.welcome}>Welcome to React Native!</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
+          <Text style={styles.instructions}>{`Count: ${this.state.count}`}</Text>
+        <Button onPress={this.updateCount}/>
       </View>
     );
+  }
+
+  updateCount = () =>{
+    this.setState({count: this.state.count+1});
   }
 }
 
