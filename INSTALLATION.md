@@ -85,7 +85,7 @@ Once you have your emulator running. cd into your folder
 react-native run-android
 ```
 
-## 8. Install Xcode (Optional for IOS only)
+## 8. Install Xcode (For IOS only)
 Download and install from [here](https://developer.apple.com/xcode/).
 To  run app on ios simulator run:
 ```bash
