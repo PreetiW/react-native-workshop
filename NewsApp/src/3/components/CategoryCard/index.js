@@ -24,15 +24,3 @@ export default class CategoryCard extends Component {
     )
   }
 }
-
-/*
-export default class Title extends Component {
-  render() {
-    return (
-      <Text>
-        {this.props.children}
-      </Text>
-    )
-  }
-}
-*/
