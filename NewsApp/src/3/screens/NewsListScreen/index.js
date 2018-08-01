@@ -7,9 +7,9 @@ import React, { Component } from 'react';
 import { Text, View, Image } from 'react-native';
 import styles from './styles';
 
-import CategoryCard from './../../components/CategoryCard';
+//import NewsListItemCard from './../../components/NewsListItemCard';
 
-export default class CategoryListScreen extends Component<Props> {
+export default class NewsListScreen extends Component<Props> {
   render() {
     return (
       <View >
