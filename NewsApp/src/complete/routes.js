@@ -2,6 +2,7 @@ import { createStackNavigator } from 'react-navigation';
 
 import CategoryListScreen from './screens/CategoryListScreen';
 import NewsListScreen from './screens/NewsListScreen';
+import NewsArticleWebScreen from './screens/NewsArticleWebScreen';
 
 const routes = {
   Categories: {
@@ -12,6 +13,12 @@ const routes = {
   },
   NewsList: {
     screen: NewsListScreen,
+    navigationOptions: ({ navigation }) => ({
+      title: navigation.getParam('title')
+    }),
+  },
+  NewsArticleWeb: {
+    screen: NewsArticleWebScreen,
     navigationOptions: ({ navigation }) => ({
       title: navigation.getParam('title')
     }),

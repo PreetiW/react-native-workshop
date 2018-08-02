@@ -25,7 +25,7 @@ Pass data as a prop
 export default class CategoryListScreen extends Component<Props> {
   renderCategoryCards = ({ item }) => 
     <CategoryCard navigation={this.props.navigation} data={item}/>
-  _keyExtractor = (item, index) => item.id;
+  _keyExtractor = (item, index) => item.id.toString();
   render() {
     return (
       <SafeAreaView style={styles.container}>

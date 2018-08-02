@@ -8,7 +8,7 @@ import Description from './../Description';
 export default class CategoryCard extends Component {
   onCardPress = () => {
     const { data, navigation } = this.props;
-    console.log(this.props);
+    console.log(data.category);
     navigation.navigate('NewsList', {
       title: data.title,
       category: data.category

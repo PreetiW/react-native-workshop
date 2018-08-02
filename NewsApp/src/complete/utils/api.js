@@ -1,12 +1,12 @@
-import { API_CONSTANTS, BASE_URL } from './constants';
+import { API_CONSTANTS } from './constants';
 
 class Api {
   static get(url, params) {
-    API_CONSTANTS = { ...API_CONSTANTS, params};
-    url = url + Api.encodeQueryString(params);
+    const urlParams = { ...API_CONSTANTS, ...params};
+    url = url + Api.encodeQueryString(urlParams);
     return fetch(url)
       .then(res => res.json())
-      .catch(err => err.json());
+      .catch(err => err);
   }
 
   static encodeQueryString(params) {
