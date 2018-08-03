@@ -7,14 +7,14 @@
  */
 
 import React, { Component } from 'react';
-//import HomeScreen from './screens/HomeScreen';
+import NewsListScreen from './screens/NewsListScreen';
+
 import CategoryListScreen from './screens/CategoryListScreen';
-//import NewsListScreen from './screens/NewsListScreen';
 
 type Props = {};
 export default class App extends Component<Props> {
   render() {
-    // Replace The CategoryListScreen With NewsListScreen
+    // Convert the NewsListScreen into a list view
     return (
       <CategoryListScreen />
     );
