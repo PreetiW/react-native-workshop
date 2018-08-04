@@ -10,9 +10,16 @@ import styles from './styles';
 
 import NewsListItemCard from './../../components/NewsListItemCard';
 import articles from './../../utils/articles';
+//import Api from './../../utils/api'; 
 
 
 export default class NewsListScreen extends Component<Props> {
+
+  componentDidMount() {
+    /*
+      Make APi Call here
+    */
+  }
 
   renderNewsCards = ({ item }) =>
     <NewsListItemCard data={item} />
