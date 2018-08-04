@@ -5,7 +5,6 @@
 
 import React, { Component } from 'react';
 import { Text, View, Image, FlatList, StatusBar } from 'react-native';
-import { SafeAreaView } from 'react-navigation';
 import styles from './styles';
 
 import CategoryCard from './../../components/CategoryCard';
