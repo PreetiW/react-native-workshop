@@ -3,8 +3,8 @@ import { StyleSheet, Platform, Dimensions } from 'react-native';
 const styles = StyleSheet.create({
   card: {
     borderRadius: 1,
-    elevation: 2,
-    backgroundColor: '#fff',
+    elevation: 1,
+    //backgroundColor: '#fff',
     shadowColor: '#eaeaea',
     shadowRadius: 5,
     shadowOpacity: 0.5,

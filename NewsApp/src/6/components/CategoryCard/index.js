@@ -6,8 +6,12 @@ import Title from './../Title';
 import Description from './../Description';
 
 export default class CategoryCard extends Component {
-  onPressHandler() {
-    alert('clicked')
+  onPressHandler = () => {
+    const { navigation, data } = this.props;
+    navigation.navigate('NewsList', {
+      title: data.title,
+      category: data.category
+    });
   }
   render() {
     const { data } = this.props;

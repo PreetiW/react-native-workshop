@@ -9,14 +9,14 @@
 import React, { Component } from 'react';
 import NewsListScreen from './screens/NewsListScreen';
 
-import CategoryListScreen from './screens/CategoryListScreen';
+import RootStack from './routes';
 
 type Props = {};
 export default class App extends Component<Props> {
   render() {
     // Convert the NewsListScreen into a list view
     return (
-      <NewsListScreen />
+      <RootStack />
     );
   }
 }

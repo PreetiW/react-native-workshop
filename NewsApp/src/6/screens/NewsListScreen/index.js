@@ -21,6 +21,9 @@ export default class NewsListScreen extends Component<Props> {
   }
 
   componentDidMount() {
+    const { navigation } = this.props;
+    const category = navigation.getParam('category');
+    
     Api.get(BASE_URL)
       .then(response => {
         this.setState({

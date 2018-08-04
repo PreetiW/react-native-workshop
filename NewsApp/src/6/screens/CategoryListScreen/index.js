@@ -13,6 +13,7 @@ import categories from './../../utils/categories';
 
 
 export default class CategoryListScreen extends Component<Props> {
+  /**Pass navigation as a prop */
   renderCategoryCards = ({ item }) => 
     <CategoryCard navigation={this.props.navigation} data={item}/>
 
@@ -20,6 +21,7 @@ export default class CategoryListScreen extends Component<Props> {
   
   render() {
     return (
+      /* Use Safe Area* */
       <View style={styles.container}>
         <FlatList 
           data={categories}
