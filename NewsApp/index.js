@@ -1,3 +1,3 @@
 /** @format */
 
-import './src/complete';
+import './src/7';
