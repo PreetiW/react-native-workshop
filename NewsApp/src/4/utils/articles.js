@@ -138,7 +138,7 @@ const articles = [
     },
     author: "Vasudha Venugopal",
     title: "NRC needed to maintain cultural identity, says BJP national general secretary Ram Madhav",
-    description: "Accusing Mamata Banerjee of playing opportunistic politics, Ram Madhav said, the "same Mamata had charged the left of using infiltrators as vote banks in 2005."",
+    description: "Accusing Mamata Banerjee of playing opportunistic politics, Ram Madhav said, the same Mamata had charged the left of using infiltrators as vote banks in 2005.",
     url: "https://economictimes.indiatimes.com/news/politics-and-nation/nrc-needed-to-maintain-cultural-identity-says-bjp-national-general-secretary-ram-madhav/articleshow/65263964.cms",
     urlToImage: "https://img.etimg.com/thumb/msid-65263958,width-1070,height-580,imgsize-54826,overlay-economictimes/photo.jpg",
     publishedAt: "2018-08-03T17:43:00Z"
